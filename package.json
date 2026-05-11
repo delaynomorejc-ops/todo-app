@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node --env-file=.env server.js",
     "build": "cd frontend && npm run build",
-    "dev:server": "node server.js",
+    "dev:server": "node --env-file=.env server.js",
     "dev:client": "cd frontend && npm run dev"
   },
   "dependencies": {

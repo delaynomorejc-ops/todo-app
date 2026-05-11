@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DATA_FILE = resolve(__dirname, 'todos.json')
 const STATIC_DIR = resolve(__dirname, 'frontend/dist')
-const PORT = process.env.PORT ?? 3001
+const PORT = process.env.PORT ?? 3000
 
 const app = express()
 app.use(express.json({ limit: '10mb' }))

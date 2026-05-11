@@ -6,11 +6,12 @@ A minimal hierarchical todo list app. Data is stored locally as JSON, with a sim
 
 ```bash
 npm install
+cp .env.example .env   # edit PORT if needed
 npm run build
-node server.js
+npm start
 ```
 
-Open http://localhost:3001
+Open http://localhost:3000
 
 ## Development
 
@@ -29,8 +30,8 @@ Open http://localhost:5173
 Run the server on both machines:
 
 ```bash
-npm install && npm run build
-node server.js
+npm install && cp .env.example .env && npm run build
+npm start
 ```
 
 To pull data from another machine on the same network:
