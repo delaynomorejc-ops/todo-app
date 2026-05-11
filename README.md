@@ -26,7 +26,14 @@ Open http://localhost:5173
 
 ## Sync Between Machines
 
-Both machines run `node server.js`. To pull data from another machine on the same network:
+Run the server on both machines:
+
+```bash
+npm install && npm run build
+node server.js
+```
+
+To pull data from another machine on the same network:
 
 ```bash
 # Fetch from another machine (replace with its local IP)
